@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Amatic+SC&family=Caveat&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Nothing+You+Could+Do&family=Noto+Sans+Mono&family=Orbitron&family=Philosopher:ital@1&family=Press+Start+2P&family=Roboto:wght@400;700&family=Shadows+Into+Light&family=Silkscreen&family=Splash&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcoral;
+  font-family: 'Roboto' sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: lightcoral;
+}
+input:focus {
+  outline: none;
+}
